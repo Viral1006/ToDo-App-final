@@ -1,0 +1,67 @@
+#auth-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: hsl(235, 24%, 19%);
+    border-radius: 6px;
+  }
+  
+  #auth-container h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  #auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: hsl(235, 24%, 19%);
+    border: 1px solid hsl(237, 14%, 26%);
+    color: hsl(234, 39%, 85%);
+  }
+  
+  #auth-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(234, 24%, 50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #auth-container p {
+    color: hsl(234, 39%, 85%);
+    margin-top: 10px;
+  }
+  
+  #auth-container a {
+    color: hsl(234, 24%, 50%);
+    text-decoration: none;
+  }
+
+  #user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: hsl(235, 24%, 19%);
+    color: hsl(234, 39%, 85%);
+    margin-bottom: 20px;
+  }
+  
+  #user-name {
+    font-size: 18px;
+  }
+  
+  #logout-btn {
+    background-color: hsl(234, 24%, 50%);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #logout-btn:hover {
+    background-color: hsl(234, 24%, 50%);
+  }
